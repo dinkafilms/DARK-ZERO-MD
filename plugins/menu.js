@@ -17,8 +17,8 @@ const voice = {
 
 let dec = `👋 *Hello ${pushname}*
 *╭───────────◉◉►*
-*│Hey, I'm 𝗗𝗔𝗥𝗞-𝗭𝗘𝗥𝗢-𝗠𝗗, Created By*
-*│ᴅᴀʀᴋ ᴢᴇʀᴏ ᴛᴍ✨🍂*
+*│Hey, I'm NADEEN-MD, Created By*
+*│NADEEN POORNA✨🍂*
 *│*
 *│I'm always here for help you.😇 Love │you forever ♥️*
 *╰───────────◉◉►*
@@ -51,11 +51,11 @@ let dec = `👋 *Hello ${pushname}*
 *│►.repo*
 *│►.owner*
 *╰───────────◎◎►*
-*©𝗗ᴀʀᴋ ᴢᴇʀᴏ-ᴍᴅ ʙʏ 𝗛𝗮𝗰𝗸𝗲𝗿 𝗧𝗠ッ*`
+ `👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻`
 
 await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/f5e0751267307ac475187.mp4`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
