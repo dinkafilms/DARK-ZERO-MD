@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94757286833']
+const ownerNumber = ['94758312496']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `DARK-ZERO-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}`;
+let up = `Hi,ane oyata kollek innawada...`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/7e1f9a45d326abc34d1.jpg` }, caption: up })
 
 }
 })
@@ -140,13 +140,13 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94757286833")){
+if(senderNumber.includes("94758312496")){
 if(isReact) return
-m.react("🧑🏻‍💻")
+m.react("😂")
 }
 //=====================✓
 
-if (config.AUTO_VOICE === 'true') {
+if (config.AUTO_VOICE === 'false') {
 const url = 'https://raw.githubusercontent.com/DarkYasiyaofc/VOICE/main/Voice-Raw/FROZEN-V2'
 let { data } = await axios.get(url)
 for (vr in data){
